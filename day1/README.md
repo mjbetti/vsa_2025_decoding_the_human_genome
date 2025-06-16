@@ -156,3 +156,6 @@ To deactivate the environment, run the following command:
 ```
 conda deactivate
 ```
+
+## Additional resources
+For additional practice navigating around a command line environment and writing basic scripts in the R programming language, see https://www.rforbiologists.org.
