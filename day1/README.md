@@ -49,7 +49,7 @@ Say you have a figure on your server located at ```/mnt/16tb/test_analysis/examp
 ## Installing miniconda 
 Miniconda is a package manager that allows you to easily install many commonly used software relevant to bioinformatics analysis.
 
-A full set of installation instructions can be found in the official documentation here: https://www.anaconda.com/docs/getting-started/miniconda/install#linux.
+A full set of installation instructions can be found in the official documentation [here](https://www.anaconda.com/docs/getting-started/miniconda/install#linux).
 
 In short, miniconda3 can be installed in the following steps:
 1. Make a new folder in your home directory where miniconda will be installed.
@@ -71,7 +71,7 @@ One of the benefits of using a package manager like miniconda is that it will au
 
 If you want to know if a package you wish to install is available on miniconda, it helps to Google "conda install softwarename". This should lead you to the Anaconda website, where you can find the specific installation command.
 
-For example, one of the software tools we will use later on is called bedtools. If we want to install bedtools using miniconda, for example, we can find the installation command here in the Anaconda documentation: https://anaconda.org/bioconda/bedtools.
+For example, one of the software tools we will use later on is called bedtools. If we want to install bedtools using miniconda, for example, we can find the installation command [here](https://anaconda.org/bioconda/bedtools) in the Anaconda documentation.
 
 Here, we learn that the installation command is the following:
 ```
