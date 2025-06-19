@@ -37,6 +37,7 @@ The following basic commands will help you navigate around the terminal environm
 * ```chmod``` - Modifies the permissions of an existing file or directory
     * For the sake of simplicity, use ```chmod 777 filename``` to give total read/write permissions to a file or directory. 
     * ```chmod -r 777 dirname``` can be used to recursively change the permissions of both the directory and all files/directories nested inside.
+* ```exit``` - Logs you out of your terminal session.
 
 ## Transferring files to and from a Linux server using the command line
 You will often need to upload new datasets to the server for analysis and download analysis results to your local machine. This can be done using the ```scp```, or secure copy, command.
