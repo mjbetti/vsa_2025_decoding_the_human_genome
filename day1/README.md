@@ -62,6 +62,8 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash ~/Miniconda3-latest-Linux-x86_64.sh
 rm ~/Miniconda3-latest-Linux-x86_64.sh
 ```
+3. Log out and log back in. You should now see the word ```(base)``` next to your username. This means that miniconda was successfully installed.
+<img width="182" alt="Screenshot 2025-06-23 at 5 06 50 PM" src="https://github.com/user-attachments/assets/39e3d2b3-e397-4f25-87b4-b5940435cfbb" />
 
 ## Installing packages using miniconda 
 One of the benefits of using a package manager like miniconda is that it will automatically install both your desired tool and all of its dependencies (the other software it needs to work), streamlining the process of getting your analysis environment up and running quickly.
