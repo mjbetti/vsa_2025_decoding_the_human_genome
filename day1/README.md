@@ -2,7 +2,7 @@
 ## Logging in to the Linux server
 You can use the following command to log in to the Linux server:
 ```
-ssh username@servername.org
+ssh username@mjbetti.hopto.org
 ```
 
 ## Navigating around the terminal
