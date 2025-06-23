@@ -53,18 +53,14 @@ Miniconda is a package manager that allows you to easily install many commonly u
 A full set of installation instructions can be found in the official documentation [here](https://www.anaconda.com/docs/getting-started/miniconda/install#linux).
 
 In short, miniconda3 can be installed in the following steps:
-1. Make a new folder in your home directory where miniconda will be installed.
+1. Download the installation shell script from the Anaconda website:
 ```
-mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
-2. Download the installation shell script from the Anaconda website:
+2. Execute the installation script and delete it once it finishes running. Follow the on-screen instructions to continue the installation:
 ```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-```
-3. Execute the installation script and delete it once it finishes running. Follow the on-screen instructions to continue the installation:
-```
-bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-rm ~/miniconda3/miniconda.sh
+bash ~/Miniconda3-latest-Linux-x86_64.sh
+rm ~/Miniconda3-latest-Linux-x86_64.sh
 ```
 
 ## Installing packages using miniconda 
