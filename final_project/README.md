@@ -150,7 +150,7 @@ for (tissue in tissues) {
 }
 
 #Loop through and split up the coordinates by chromosome
-cat_df <- cat_df[(cat_df$pvalue < (0.05 / unique(cat_df$gene))),]
+cat_df <- cat_df[(cat_df$pvalue < (0.05 / length(unique(cat_df$gene)))),]
 cat_df <- na.omit(cat_df)
 
 final_df_ordered <- cat_df[order(cat_df$pvalue),]
